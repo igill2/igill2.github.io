@@ -8,6 +8,7 @@ body
 
 	margin-left: 150px;
 	margin-right: 150px;
+	font-size: 25px;
 }
 
 header, footer
@@ -40,7 +41,7 @@ a
 a:hover
 {
 	text-decoration: underline;
-	color: mediumseagreen;
+	color: #62BAF4;
 }
 
 figure
