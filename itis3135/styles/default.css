@@ -62,12 +62,12 @@ nav
 table
 {
 	border-collapse: collapse;
-	color: #2E4AFE;
+	color: darkgray;
 }
 
 thead
 {
-	background-color: #2E4AFE;
+	background-color: darkgray;
 }
 
 th, td
@@ -76,6 +76,7 @@ th, td
 	padding: .2em 1em .2em .5em;
 	text-align: left;
 	vertical-align: middle;
+	background-color: blue;
 }
 
 .right
@@ -85,10 +86,10 @@ th, td
 
 tbody tr:nth-child(odd) td
 {
-	background-color: silver;
+	background-color: royalblue;
 }
 
 tbody tr:nth-child(even) td
 {
-	background-color: sienna;
+	background-color: steelblue;
 }
