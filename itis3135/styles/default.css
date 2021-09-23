@@ -3,7 +3,7 @@ body
 {
 	font-family: Gill Sans;
 	color: #9ECDEC;
-	background-color: #EA730A;
+	background-color: #dimgray;
 
 	margin-left: 150px;
 	margin-right: 150px;
@@ -53,7 +53,7 @@ figure
 
 figcaption
 {
-	font-style: italic;
+	font-style: bold;
 }
 
 nav
