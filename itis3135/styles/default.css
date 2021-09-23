@@ -2,7 +2,7 @@
 body
 {
 	font-family: Gill Sans;
-	color: #9ECDEC;
+	color: #70B4E1;
 	background-color: dimgray;
 	margin-left: 150px;
 	margin-right: 150px;
@@ -35,14 +35,14 @@ h2
 a
 {
 	text-decoration: none;
-	color: #62BAF4;
+	color: #1892E3;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: #62BAF4;
+	color: #1892E3;
 }
 
 figure
