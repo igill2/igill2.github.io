@@ -4,8 +4,8 @@ body
 	font-family: Gill Sans;
 	color: #70B4E1;
 	background-color: dimgray;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 80x;
+	margin-right: 85x;
 	font-size: 21px;
 }
 
@@ -60,6 +60,15 @@ nav
 	text-align: center;
 }
 
+.title{
+	text-align: left;
+}
+
+.text{
+	text-align: center;
+	font-size: 125%;
+}	
+
 table
 {
 	border-collapse: collapse;
@@ -93,4 +102,27 @@ tbody tr:nth-child(odd) td
 tbody tr:nth-child(even) td
 {
 	background-color: steelblue;
+}
+
+
+/*styling for the title of the table*/
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+/*styling for the coffee types*/
+.label {
+    font-weight: bold;
+}
+
+/*styling for the tables*/
+.altrow {
+	background-color: #E0E0E0;
+}
+
+/*styling for the Google Map link*/
+#locationlink {
+	color: #380000;
+	font-style:italic;
 }
