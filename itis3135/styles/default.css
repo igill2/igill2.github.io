@@ -32,6 +32,7 @@ h2
 {
 	margin-bottom: 20px;
 }
+
 a
 {
 	text-decoration: none;
@@ -161,7 +162,7 @@ input[type=text], input[type=email], input[type=tel], select {
 
 input[type=submit]{
 	width: 100%;
-	background-color: #3c3c3b;
+	background-color: dimgray;
 	color: #cfd6ea;
 	border: none;
 	border-radius: 5px;
