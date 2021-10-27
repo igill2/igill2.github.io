@@ -4,8 +4,8 @@ body
 	font-family: Gill Sans;
 	color: #70B4E1;
 	background-color: dimgray;
-	margin-left: 80x;
-	margin-right: 85x;
+	margin-left: 80px;
+	margin-right: 85px;
 	font-size: 21px;
 }
 
@@ -77,7 +77,7 @@ table
 {
 	border-collapse: collapse;
 	color: lightgray;
-	margin: 18 px;
+	margin: 18px;
 }
 
 thead
@@ -133,7 +133,7 @@ th {
 }
 
 .box {
-	background-color: #cfd6ea;
+	background-color: #70B4E1;
 	color: #0f0a0a;
 	font-weight: 600;
 	font-size: 110%;
