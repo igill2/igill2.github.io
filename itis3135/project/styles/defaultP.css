@@ -37,3 +37,11 @@ nav
 	text-align: left;
 }
 
+table
+{
+	border-collapse: collapse;
+	color: lightgray;
+	margin: 18px;
+	background-color: #F8F8F8;
+	border: solid 2px #787878;
+}
