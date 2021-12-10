@@ -1,0 +1,30 @@
+
+body
+{
+	font-family: Palatino, URW Palladio L, serif;
+	color: #70B4E1;
+	background-color:  #4d4d4d;
+	margin-left: 80px;
+	margin-right: 85px;
+	font-size: 21px;
+    background: url("https://wallpapercave.com/wp/wp6630904.jpg") center/100% fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    background-attachment: fixed;
+	
+}
+
+header, footer
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+main
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
