@@ -7,7 +7,7 @@ body
 	margin-left: 80px;
 	margin-right: 85px;
 	font-size: 21px;
-    background: url("images/jotaro.png") center/100% fixed;
+    background: url("jotaro.png") center/100% fixed;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     position: relative;
