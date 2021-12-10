@@ -63,13 +63,15 @@ th {
     text-align: left;
 }
 
-.custom-div{/*in use*/
+.custom-div{
 	background-color: #70B4E1;
 	color: #4d4d4d;
 	height: 400px;
 	width: 250px;
+	font-size: 25px;
 	margin-left: 100px;
 	margin-right: 100px;
 	border-style: solid;
 	border-radius: 20px;
+	opacity: 90px;
   }
