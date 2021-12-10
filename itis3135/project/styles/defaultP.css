@@ -9,13 +9,12 @@ header, footer
 body
 {
 	font-family: Palatino, URW Palladio L, serif;
-	color: #70B4E1;
+	color: #2473a8;
 	background-color: #0080ff;
 	margin-left: 80px;
 	margin-right: 85px;
 	font-size: 21px;
     position: relative;
-    background-attachment: fixed;
 	
 }
 
