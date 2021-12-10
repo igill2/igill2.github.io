@@ -16,7 +16,7 @@ nav
 body
 {
 	font-family: Palatino, URW Palladio L, serif;
-	color: #2473a8;
+	color: #595959;
 	background-color: #0080ff;
 	margin-left: 80px;
 	margin-right: 85px;
@@ -40,7 +40,7 @@ main
 
 .custom-div{
 	background-color: #70B4E1;
-	color: #4d4d4d;
+	color: #595959;
 	height: 400px;
 	width: 375px;
 	margin-left: 100px;
