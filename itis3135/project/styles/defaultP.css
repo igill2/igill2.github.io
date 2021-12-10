@@ -6,6 +6,13 @@ header, footer
 	text-align: center;
 }
 
+nav
+{
+	text-align: center;
+	background-color: #2473a8;
+}
+
+
 body
 {
 	font-family: Palatino, URW Palladio L, serif;
@@ -25,10 +32,6 @@ main
 	margin-right: 100px;
 }
 
-nav
-{
-	text-align: center;
-}
 
 .title{
 	text-align: left;
