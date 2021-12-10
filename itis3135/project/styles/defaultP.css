@@ -73,8 +73,9 @@ th {
 	border-style: solid;
 	border-radius: 20px;
 	opacity: 90px;
+	padding: 50px
   }
   h2
   {
-	  font-size: 14px;
+	  font-size: 20px;
   }
