@@ -1,4 +1,11 @@
 
+header, footer
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
 body
 {
 	font-family: Palatino, URW Palladio L, serif;
@@ -15,18 +22,6 @@ body
 	
 }
 
-
-
-img:hover {
-  opacity: 1.0;
-}
-
-header, footer
-{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
-}
 
 main
 {
@@ -53,6 +48,7 @@ nav
 	margin-right: 100px;
 	border-style: solid;
 	border-radius: 20px;
+	border-color: coral;
 	opacity: 90px;
 	padding: 50px
   }
