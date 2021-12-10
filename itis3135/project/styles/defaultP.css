@@ -44,6 +44,21 @@ main
 .explanation-div{
 	background-color: #70B4E1;
 	color: #595959;
+	height: 200px;
+	width: 350px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-style: solid;
+	border-radius: 20px;
+	border-width: medium;
+	border-color: coral;
+	opacity: 90px;
+	padding: 40px;
+  }
+  
+  .purchase-div{
+	background-color: #70B4E1;
+	color: #595959;
 	height: 350px;
 	width: 350px;
 	margin-left: 100px;
@@ -55,6 +70,7 @@ main
 	opacity: 90px;
 	padding: 50px
   }
+  
   h2
   {
 	  font-size: 20px;
