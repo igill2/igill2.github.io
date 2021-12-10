@@ -3,11 +3,11 @@ body
 {
 	font-family: Palatino, URW Palladio L, serif;
 	color: #70B4E1;
-	background-color:  #4d4d4d;
+	background-color: #4d4d4d;
 	margin-left: 80px;
 	margin-right: 85px;
 	font-size: 21px;
-    background: url("images/jotaro.png") center/100% fixed;
+    background-image: url("images/jotaro.png") center/100% fixed;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     position: relative;
@@ -43,25 +43,6 @@ nav
 	text-align: left;
 }
 
-table
-{
-	border-collapse: collapse;
-	color: lightgray;
-	margin: 18px;
-	background-color: #8a8a5c;
-	border: solid 2px #000000;
-	opacity: 0.5;
-}
-
-th {
-    font-weight: bold;
-    text-align: left;
-}
-
-th {
-    font-weight: bold;
-    text-align: left;
-}
 
 .custom-div{
 	background-color: #70B4E1;
