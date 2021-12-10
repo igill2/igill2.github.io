@@ -10,12 +10,10 @@ body
 {
 	font-family: Palatino, URW Palladio L, serif;
 	color: #70B4E1;
+	background-color: #0080ff;
 	margin-left: 80px;
 	margin-right: 85px;
 	font-size: 21px;
-    background-image: url("jotaro.png") center/100% fixed;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
     position: relative;
     background-attachment: fixed;
 	
