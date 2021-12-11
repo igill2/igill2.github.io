@@ -11,7 +11,6 @@ nav
 	text-align: center;
 	background-color: #e6e6e6;
 	padding: 10px;
-	word-spacing: 15px;
 	border-radius: 10px;
 }
 
@@ -74,4 +73,10 @@ main
   h2
   {
 	  font-size: 20px;
+  }
+  
+  img
+  {
+	  height: 30px;
+	  width: 30px;
   }
