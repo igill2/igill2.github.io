@@ -50,10 +50,10 @@ main
 	border-width: medium;
 	border-color: #8080ff;
 	opacity: .9;
-	padding: 15px;
+	padding: 8px;
   }
   
-  .purchase-div{
+  .images-div{
 	background-color: #e6e6e6;
 	color: #cccccc;
 	margin-top:75px;
