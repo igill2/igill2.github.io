@@ -2,14 +2,14 @@ h1
 {
 	font-family: Palatino, URW Palladio L, serif;
 	text-align: center;
-	color: #4d4d4d;
+	color: #737373;
 }
 
 p
 {
 	font-family: Palatino, URW Palladio L, serif;
-	font-size: 18px;
-	color: #4d4d4d;
+	font-size: 25px;
+	color: #737373;
 }
 
 header, footer
@@ -47,7 +47,7 @@ main
 
 .explanation-div{
 	background-color: #70B4E1;
-	color: #595959;
+	color: #737373;
 	height: 200px;
 	width: 350px;
 	margin-left: 80px;
@@ -62,7 +62,7 @@ main
   
   .purchase-div{
 	background-color: #70B4E1;
-	color: #595959;
+	color: #737373;
 	margin-top:75px;
 	margin-left: 80px;
 	margin-right: 100px;
@@ -85,7 +85,8 @@ main
   
   .box {
 	background-color: #70B4E1;
-	color: #0f0a0a;
+	color: #737373;
+	width: 350px;
 	font-weight: 600;
 	font-size: 110%;
 	padding: 20px;
