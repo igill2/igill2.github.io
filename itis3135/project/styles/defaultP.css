@@ -41,7 +41,7 @@ main
 }
 
 .explanation-div{
-	background-color: #70B4E1;
+	background-color: #e6e6e6;
 	color: #cccccc;
 	margin-left: 80px;
 	margin-right: 100px;
@@ -54,7 +54,7 @@ main
   }
   
   .purchase-div{
-	background-color: #70B4E1;
+	background-color: #e6e6e6;
 	color: #cccccc;
 	margin-top:75px;
 	margin-left: 80px;
@@ -62,7 +62,7 @@ main
 	border-style: solid;
 	border-radius: 20px;
 	border-width: medium;
-	border-color: #e6e6e6;
+	border-color: #8080ff;
 	opacity: .9;
 	padding: 10px;
   }
@@ -91,7 +91,7 @@ main
   
   .box {
 	float: right;
-	background-color: #70B4E1;
+	background-color: #e6e6e6;
 	color: #cccccc;
 	font-weight: 600;
 	font-size: 110%;
@@ -106,5 +106,5 @@ main
 	border-style: solid;
 	border-radius: 20px;
 	border-width: medium;
-	border-color: #e6e6e6;
+	border-color: #8080ff;
 }
