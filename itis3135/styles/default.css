@@ -61,17 +61,12 @@ figcaption
 }
 
 img {
-	border-radius: 12%;
-	border: 7px solid blue;
-	height: 
+	border-radius: 10px;
+	border: 7px solid #70B4E1;
 }
 nav
 {
 	text-align: center;
-}
-
-.title{
-	text-align: left;
 }
 
 .text{
