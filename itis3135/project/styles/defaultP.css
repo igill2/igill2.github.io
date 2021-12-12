@@ -1,9 +1,4 @@
-h1
-{
-	font-family: Palatino, URW Palladio L, serif;
-	text-align: center;
-	color: #cccccc;
-}
+
 
 p, body
 {
@@ -72,9 +67,21 @@ main
 	padding: 10px;
   }
   
+  h1
+{
+	font-family: Palatino, URW Palladio L, serif;
+	text-align: center;
+	color: #cccccc;
+}
+  
   h2
   {
 	  font-size: 20px;
+  }
+  
+  h3
+  {
+	  text-align: center;
   }
   
   img
