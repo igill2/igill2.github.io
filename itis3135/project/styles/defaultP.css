@@ -4,7 +4,7 @@ p, body
 {
 	font-family: Palatino, URW Palladio L, serif;
 	font-size: 20px;
-	color: #cccccc;
+	color: #8080ff;
 }
 
 header, footer
@@ -67,11 +67,11 @@ main
 	padding: 10px;
   }
   
-  h1
+  h1, h2, h3
 {
 	font-family: Palatino, URW Palladio L, serif;
 	text-align: center;
-	color: #cccccc;
+	color: #8080ff;
 }
   
   h2
