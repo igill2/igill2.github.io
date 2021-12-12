@@ -48,7 +48,7 @@ main
 	border-style: solid;
 	border-radius: 20px;
 	border-width: medium;
-	border-color: #e6e6e6;
+	border-color: #8080ff;
 	opacity: .9;
 	padding: 15px;
   }
@@ -89,11 +89,12 @@ main
 	 object-fit: contain;
   }
   
-  .box {
-	float: right;
+  .payment {
 	background-color: #e6e6e6;
 	color: #cccccc;
-	font-weight: 600;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
 	font-size: 110%;
 	padding: 20px;
 	border-radius: 10px;
@@ -101,8 +102,7 @@ main
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	display: flex;
-	align-items: center;
+	
 	border-style: solid;
 	border-radius: 20px;
 	border-width: medium;
