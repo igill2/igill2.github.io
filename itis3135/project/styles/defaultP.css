@@ -99,6 +99,10 @@ main
 	border-radius: 10px;
 	display: block;
 	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
 	border-style: solid;
 	border-radius: 20px;
 	border-width: medium;
