@@ -13,8 +13,6 @@ p
 	color: #4d4d4d;
 }
 
-
-
 header, footer
 {
 	margin-top: 35px;
@@ -48,12 +46,6 @@ main
 	margin-right: 100px;
 }
 
-
-.title{
-	text-align: left;
-}
-
-
 .explanation-div{
 	background-color: #70B4E1;
 	color: #595959;
@@ -66,7 +58,7 @@ main
 	border-width: medium;
 	border-color: #e6e6e6;
 	opacity: .9;
-	padding: 40px;
+	padding: 15px;
   }
   
   .purchase-div{
@@ -82,7 +74,6 @@ main
 	border-width: medium;
 	border-color: #e6e6e6;
 	opacity: .9;
-	padding: 20px;
   }
   
   h2
