@@ -1,3 +1,11 @@
+/*CSS for project */
+header, footer
+{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
 h1
 {
 	font-family: Palatino, URW Palladio L, serif;
@@ -10,13 +18,6 @@ p, body
 	font-family: Palatino, URW Palladio L, serif;
 	font-size: 20px;
 	color: #cccccc;
-}
-
-header, footer
-{
-	margin-top: 35px;
-	margin-bottom: 35px;
-	text-align: center;
 }
 
 nav
