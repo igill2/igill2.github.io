@@ -59,6 +59,7 @@ main
   }
   
   .purchase-div{
+	float: left;
 	background-color: #70B4E1;
 	color: #cccccc;
 	margin-top:75px;
@@ -70,6 +71,7 @@ main
 	border-color: #e6e6e6;
 	opacity: .9;
 	padding: 10px;
+	width: 350px;
   }
   
   h2
