@@ -84,6 +84,7 @@ main
   }
   
   .box {
+	float: right;
 	background-color: #70B4E1;
 	color: #737373;
 	width: 350px;
