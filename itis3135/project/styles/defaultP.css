@@ -42,7 +42,7 @@ body
     position: relative;
 	
 }
-/*set attributes for font */
+/*set attributes for body text, paragraphs and h2 */
 p, body, h2
 {
 	font-family: Palatino, URW Palladio L, serif;
@@ -140,7 +140,6 @@ main
 	height: 260px;
 	width: 988px;
 	position: absolute;
-    z-index: 15px;
 	right: 0;
   }
   
