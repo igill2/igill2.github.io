@@ -59,14 +59,13 @@ p, body, h2
   
   h1 
   {
-	  margin-top: 10px;
+	  margin-top: 0px;
   }              
-  
-  
   
   h3
   {
 	  text-align: center;
+	    margin-top: 10px;
   }
 
   h4 /*small font*/
@@ -81,6 +80,22 @@ main
 	margin-left: 100px;
 	margin-right: 100px;
 }
+/*Only for welcome on index page, different border radius */
+.welcome-div 
+{
+   	background-color: #e6e6e6;
+	color: #8080ff;
+	margin-left: 80px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 35px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: medium;
+	border-color: #8080ff;
+	padding: 8px;
+}
+
 /*set the setup for home blocks, centered and colors */
 .cube {
 	background-color: #e6e6e6;

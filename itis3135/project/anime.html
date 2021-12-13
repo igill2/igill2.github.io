@@ -1,4 +1,4 @@
-<!-- /*html for second page, Iyan Gill */ -->
+<!-- /*html for second page, Iyan Gill -->
 <!DOCTYPE html>
 
 <html lang="en">
@@ -11,15 +11,15 @@
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script>
-    $(document).ready(function(){
+    <script src="scripts/slideshow.js"> </script>
+	<!-- load script immediately into site -->
+	<script> $(document).ready(function(){
       $('.slider').bxSlider();
     });
-  </script>
-  
+	</script>
 	<title> Music </title>
 </head>
-<!-- /*Nav bar with snowman emoji, dead link for current page */ -->
+<!-- /*Nav bar with snowman emoji, dead link for current page -->
 <body>
 	<header>
 	<h1>Your Favorite MarketPlace</h1>
@@ -34,24 +34,26 @@
 	</header>
 	
 	<main>
-	<!-- bullet point explaining what each visitor of this page will find*/ -->
+	<!-- bullet point explaining what each visitor of this page will find -->
 	<div class="explanation-div">
-	<h3><u> Welcome to the anime page! </u></h3>
-		<p> As of now you are able to select 4 genres: shonen, thriller, action, and comedy. On sale today, we have
-		shonen, thriller, action, and comedy.
-		Feel free to check it all out and leave feedback at the bottom. Thank you!</p>
-	</div> <br>
-      
-	  <div class="images-div">
-	</div> <br>
-	    	<!-- interactive slide show*/ -->
+		<h3><u> Welcome to the anime page! </u></h3>
+			<p> As of now you are able to select 4 genres: shonen, thriller, action, and comedy. On sale today, we have
+			shonen, thriller, action, and comedy.
+			Feel free to check it all out and leave feedback at the bottom. Thank you!</p>
+	</div> 
+	<br>
+	<!-- background of slideshow -->
+    <div class="images-div">
+	</div> 
+	<br>
+	    	<!-- interactive slide show -->
 	   <div class="slider">
 	 <div><img src="images/myHero.jpg" width="1000px" height="250px" alt="shonen"></div>
 	 <div><img src="images/parasyte.jpg" width="1000px" height="250px" alt="thriller"></div>
 	 <div><img src="images/aot.jpg" width="1000px" height="250px" alt="action"></div>
 	 <div><img src="images/saikiK.jpg" width="1000px" height="250px" alt="comedy"></div>
 	</div> <br>
-	  <!-- payment form*/ -->
+	  <!-- payment form, required info and must accpet terms and conditions, 1 radio button allowed -->
  <div class="payment">
         <form>
 			<label for="Purchase">Payment Information</label> <br>
@@ -68,13 +70,13 @@
             <label for="agreement"><h4>I have read the terms and conditions and understand that I am responsible for 
 								 each purchase made.</h4></label><br>
              <label>Find anything you're interested in? (select one)</label><br>
-            <input type="radio" id="action" name="action" value="action">
+            <input type="radio" id="action" name="anime" value="action">
             <label for="action"> action $10.99</label><br>
-            <input type="radio" id="thriller" name="thriller" value="thriller">
+            <input type="radio" id="thriller" name="anime" value="thriller">
             <label for="thriller">thriller $12.99</label><br>
-            <input type="radio" id="shonen" name="shonen" value="shonen">
+            <input type="radio" id="shonen" name="anime" value="shonen">
             <label for="shonen">shonen $8.99</label><br>
-			<input type="radio" id="Comedy" name="comedy" value="comedy">
+			<input type="radio" id="Comedy" name="anime" value="comedy">
             <label for="comedy"> comedy $5.99</label><br>
 								 
             <input type="submit" value="Submit">
