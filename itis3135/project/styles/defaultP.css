@@ -9,6 +9,7 @@ header, footer
 /*set effect for nav bar clicks */
 a:link{
         color: orange;
+		text-decoration: none;
       }
 		
 a:visited{
@@ -16,7 +17,7 @@ a:visited{
          }
 		 
 		 /*custom nav bar, slim, centered */
-nav
+.navButton
 {
 	text-align: center;
 	background-color: #e6e6e6;
@@ -30,6 +31,26 @@ nav
 	border-width: medium;
 	border-color: #8080ff;
 	margin: auto;
+}
+.navButton a {
+  padding: 5px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #8080ff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px #bfbfbf;
+}
+/*While hovering, button turns this color */
+.navButton a:hover {
+	background-color: #ccccff;
+	}
+/*While clicking, button turns this color */
+.navButton a:active {
+  background-color: #f2f2f2;
+  box-shadow: 0 5px #687;
+  transform: translateY(4px);
 }
 
 /*changed background color */
@@ -138,7 +159,7 @@ main
 	border-width: medium;
 	border-color: #8080ff;
 	height: 260px;
-	width: 988px;
+	width: 982px;
 	position: absolute;
 	right: 0;
   }
@@ -169,27 +190,6 @@ main
 	max-width: 25%;
 }
 /*styling and positioning for button */
-.button {
-  padding: 10px;
-  text-align: center;
-  outline: none;
-  color: #fff;
-  background-color: #8080ff;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 9px #bfbfbf;
-}
-/*While hovering, button turns this color */
-.button:hover {
-	background-color: #ccccff;
-	}
-/*While clicking, button turns this color */
-.button:active {
-  background-color: #f2f2f2;
-  box-shadow: 0 5px #687;
-  transform: translateY(4px);
-}
-
 
 /*allows the section elements to be side by side*/
 #wrapper {
