@@ -1,4 +1,4 @@
-/*CSS for project page */
+/*CSS for project page, Iyan Gill */
 
 header, footer
 {
@@ -13,6 +13,8 @@ a:link{
 a:visited{
           color:purple;
          }
+		 
+		 /*custom nav bar, slim, centered */
 nav
 {
 	text-align: center;
@@ -29,7 +31,7 @@ nav
 	margin: auto;
 }
 
-
+/*changed background color */
 body
 {
 	background-color: #ffcc99;
@@ -40,17 +42,12 @@ body
 	
 }
 
-p, body
+p, body, h2
 {
 	font-family: Palatino, URW Palladio L, serif;
 	font-size: 20px;
 	color: #8080ff;
 }
-
-  h2
-  {
-	  font-size: 20px;
-  }
   
   h3
   {
@@ -70,7 +67,7 @@ main
 	border-radius: 20px;
 	border-width: medium;
 	border-color: #8080ff;
-	height: 250px;
+	height: 275px;
 	width: 250px;
 	display: block;
 	padding: 8px;
