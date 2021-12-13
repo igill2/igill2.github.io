@@ -17,11 +17,16 @@ nav
 {
 	text-align: center;
 	background-color: #e6e6e6;
-	padding: 10px;
+	padding: 15px;
 	border-radius: 10px;
-	max-width: 65%;
+	max-width:50%;
     padding-left: 0px;
     padding-right: 0px;
+	border-style: double;
+	border-radius: 4px;
+	border-width: medium;
+	border-color: #8080ff;
+	margin: auto;
 }
 
 
@@ -42,10 +47,36 @@ p, body
 	color: #8080ff;
 }
 
+  h2
+  {
+	  font-size: 20px;
+  }
+  
+  h3
+  {
+	  text-align: center;
+  }
+
 main
 {
 	margin-left: 100px;
 	margin-right: 100px;
+}
+
+.cube {
+	background-color: #e6e6e6;
+	color: #8080ff;
+	border-style: solid;
+	border-radius: 20px;
+	border-width: medium;
+	border-color: #8080ff;
+	height: 250px;
+	width: 250px;
+	display: block;
+	padding: 8px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	position: relative;
 }
 
 .explanation-div{
@@ -88,15 +119,7 @@ main
 	  margin-top: 10px;
   }
   
-  h2
-  {
-	  font-size: 20px;
-  }
-  
-  h3
-  {
-	  text-align: center;
-  }
+
   
   img
   {
@@ -108,14 +131,13 @@ main
 	color: #8080ff;
 	align-items: center;
 	font-weight: 500;
-	font-size: 110%;
+	font-size: 100%;
 	padding: 20px;
 	border-radius: 10px;
 	display: block;
 	display: flex;
 	text-align: center;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin: auto;
 	flex-direction: column;
 	justify-content: center;
 	border-style: solid;
@@ -146,19 +168,7 @@ main
   transform: translateY(4px);
 }
 
-.cube {
-	background-color: #e6e6e6;
-	color: #8080ff;
-	border-style: solid;
-	border-radius: 20px;
-	border-width: medium;
-	border-color: #8080ff;
-	height: 250px;
-	width: 250px;
-	display: block;
-	padding: 8px;
-	margin-top: 15px;
-}
+
 
 #wrapper {
   display: flex;
