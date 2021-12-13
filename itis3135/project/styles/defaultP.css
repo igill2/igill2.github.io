@@ -69,6 +69,13 @@ p, body, h2
 	  text-align: center;
   }
 
+  h4 /*small font*/
+ {
+	 margin-top: 5px;
+	font-size:15px;
+	margin-bottom: auto;
+ }
+
 main
 {
 	margin-left: 100px;
@@ -96,6 +103,8 @@ main
 	color: #cccccc;
 	margin-left: 80px;
 	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 35px;
 	border-style: solid;
 	border-radius: 20px;
 	border-width: medium;

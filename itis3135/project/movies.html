@@ -21,7 +21,7 @@
 <!-- /*Nav bar with snowman emoji, dead link for current page */ -->
 <body>
 	<header>
-	<h1>Your Favorite Marketplace</h1>
+	<h1>Your Favorite MarketPlace</h1>
 		<nav>
 			<button class="button"><a href="index.html">Home</a> </button> &#9924;
 			<button class="button"><a href="music.html">Music</a> </button> &#9924;
@@ -35,10 +35,11 @@
 	<main>
 	
 	<div class="explanation-div">
-	<h3> Welcome to the movies page! </h3>
+	<h3><u>Welcome to the movies page! </u></h3>
 		<p> As of now you are able to select 4 genres: superheros, disney, romance, and international movies. 
 		We have a wide variety of movies to check out so make sure to go through them all and find what you like and
-		feel free to leave feedback at the bottom. Thank you! More coming soon...</p>
+		feel free to leave feedback at the bottom. On sale today, we have
+		superhero movies, pg disney movies, typical romance movies, and big internatioal movies. Thank you! More coming soon...</p>
 	</div> <br>
       
 	  <div class="images-div">
@@ -63,9 +64,20 @@
             <label for="ZipCode">Zip Code: </label><br>
             <input type="text" id="ZipCode" name="ZipCode" placeholder="Zip Code..." required><br>
 			
-            <input type="checkbox" id="agreement" name="agreement" value="agreement">
-            <label for="agreement">I have read the terms and conditions and understand that I am responsible for 
-								 each purchase made.</label><br>
+            <input required type="checkbox" id="agreement" name="agreement" value="agreement">
+            <label for="agreement"><h4>I have read the terms and conditions and understand that I am responsible for 
+								 each purchase made.</h4></label><br>
+             <label>Find anything you're interested in? (select one)</label><br>
+			
+            <input type="radio" id="disney" name="disney" value="disney">
+            <label for="disney"> disney $10.99</label><br>
+            <input type="radio" id="superheros" name="superheros" value="superheros">
+            <label for="superheros">superheros $9.99</label><br>
+            <input type="radio" id="romance" name="romance" value="romance">
+            <label for="romance">romance $8.99</label><br>
+			<input type="radio" id="International" name="international" value="international">
+            <label for="international"> International $12.99</label><br>
+								 
             <input type="submit" value="Submit">
         </form>
     </div> <br>

@@ -22,7 +22,7 @@
 <!-- /*Nav bar with snowman emoji, dead link for current page */ -->
 <body>
 	<header>
-	<h1>Your Favorite Marketplace</h1>
+	<h1>Your Favorite MarketPlace</h1>
 		<nav>
 			<button class="button"><a href="index.html">Home</a> </button> &#9924;
 			<button class="button"><a href="music.html">Music</a> </button> &#9924;
@@ -36,9 +36,10 @@
 	<main>
 	
 	<div class="explanation-div">
-	<h3> Welcome to the music page! </h3>
+	<h3><u> Welcome to the music page! </u></h3>
 		<p> As of now you are able to select 4 styles of clothing: winter, spring, summer, and fall. 
-		We have a few options of hoodies at the moment and will add more as the year progess.
+		We have a few options of hoodies at the moment and will add more as the year progess. On sale today, we have
+		winter jackets, rain jackets, cotton hoodies, and summer hoodies.
 		Feel free to check it all out and leave feedback at the bottom. Thank you! More coming soon...</p>
 	</div> <br>
       
@@ -46,10 +47,10 @@
 	</div> <br>
 	    	<!-- interactive slide show*/ -->
 	   <div class="slider">
-	 <div><img src="images/winterJ.jpg" width="1000px" height="250px" alt="Action"></div>
-	 <div><img src="images/rainJ.jpg" width="1000px" height="250px" alt="Disney"></div>
-	 <div><img src="images/fall.jpg" width="1000px" height="250px" alt="Romance"></div>
-	 <div><img src="images/summerJ.jpg" width="1000px" height="250px" alt="International Movies"></div>
+	 <div><img src="images/winterJ.jpg" width="1000px" height="250px" alt="winter jacket"></div>
+	 <div><img src="images/rainJ.jpg" width="1000px" height="250px" alt="rain jacket"></div>
+	 <div><img src="images/fall.jpg" width="1000px" height="250px" alt="somewhat fall jacket"></div>
+	 <div><img src="images/summerJ.jpg" width="1000px" height="250px" alt="somewhat summer jacket"></div>
 	</div> <br>
 	  <!-- payment form*/ -->
  <div class="payment">
@@ -64,9 +65,19 @@
             <label for="ZipCode">Zip Code: </label><br>
             <input type="text" id="ZipCode" name="ZipCode" placeholder="Zip Code..." required><br>
 			
-            <input type="checkbox" id="agreement" name="agreement" value="agreement">
-            <label for="agreement">I have read the terms and conditions and understand that I am responsible for 
-								 each purchase made.</label><br>
+            <input required type="checkbox" id="agreement" name="agreement" value="agreement">
+            <label for="agreement"><h4>I have read the terms and conditions and understand that I am responsible for 
+								 each purchase made.</h4></label><br>
+            <label>Find anything you're interested in? (select one)</label><br>	
+            <input type="radio" id="winter" name="winter" value="winter">
+            <label for="winter"> winter $18.99</label><br>
+            <input type="radio" id="spring" name="spring" value="spring">
+            <label for="spring">spring $17.99</label><br>
+            <input type="radio" id="summer" name="summer" value="summer">
+            <label for="summer">summer $8.99</label><br>
+			<input type="radio" id="fall" name="fall" value="fall">
+            <label for="fall"> fall $12.99</label><br>
+								 
             <input type="submit" value="Submit">
         </form>
     </div> <br>
