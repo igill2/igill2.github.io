@@ -6,6 +6,15 @@
 	<link href="styles/defaultP.css" 
 	rel="stylesheet" 
 	type="text/css" >
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+  
 	<title> Music </title>
 </head>
 
@@ -13,11 +22,11 @@
 	<header>
 	<h1>Your Favorite Marketplace</h1>
 		<nav>
-			<a href="index.html">Home</a> &#9924;
-			<a href="#">Music</a> &#9924;
-			<a href="anime.html">Anime</a> &#9924;
-			<a href="hairstyles.html">hairstyles</a> &#9924;
-			<a href="tv-shows.html">tv shows</a> &#9924;
+			<button class="button"><a href="index.html">Home</a> </button> &#9924;
+			<button class="button"><a href="#">Music</a> </button> &#9924;
+			<button class="button"><a href="anime.html">Anime</a> </button> &#9924;
+			<button class="button"><a href="hairstyles.html">hairstyles</a> </button> &#9924;
+			<button class="button"><a href="tv-shows.html">tv shows</a> </button> &#9924;
 		</nav>
 	</header>
 	
@@ -31,30 +40,33 @@
 	</div> <br>
       
 	  <div class="images-div">
-	 <p> what it do </p>
+	</div> <br>
+	  
+	   <div class="slider">
+	 <div><img src="images/action.jpg" width="750px" height="250px" alt="Action"></div>
+	 <div><img src="images/disney.jpg" width="750px" height="250px" alt="Disney"></div>
+	 <div><img src="images/romance.jpg" width="750px" height="250px" alt="Romance"></div>
+	 <div><img src="images/internationalMovies.jpg" width="750px" height="250px" alt="International Movies"></div>
 	</div> <br>
 	  
  <div class="payment">
         <form>
 			<label for="Purchase">Payment Information</label> <br>
             <label for="name">Full name: </label> <br>
-            <input type="text" id="Purchase" name="Purchase" required size="20" placeholder="Name"><br>
+            <input type="text" id="Purchase" name="Purchase" required size="20" placeholder="Enter full name..."><br>
 			
             <label for="CardInfo"> Card Number:</label><br>
-            <input type="text" id="CardInfo" name="CardInfo" placeholder="CardInfo" required ><br>
+            <input type="text" id="CardInfo" name="CardInfo" placeholder="Card Info..." required ><br>
 			
             <label for="ZipCode">Zip Code: </label><br>
-            <input type="text" id="ZipCode" name="ZipCode" placeholder="ZipCode" required><br>
+            <input type="text" id="ZipCode" name="ZipCode" placeholder="Zip Code..." required><br>
 			
             <input type="checkbox" id="agreement" name="agreement" value="agreement">
             <label for="agreement">I have read the terms and conditions and understand that I am responsible for 
 								 each purchase made.</label><br>
             <input type="submit" value="Submit">
         </form>
-    </div>
-	  
-	
-	
+    </div> <br>
 
     </main>
 	
