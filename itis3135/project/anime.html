@@ -9,10 +9,10 @@
 	rel="stylesheet" 
 	type="text/css" >
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="scripts/slideshow.js"> </script>
-	<title> Music </title>
+	<title> Anime </title>
 </head>
 <!-- /*Nav bar with snowman emoji, dead link for current page -->
 <body>
@@ -50,9 +50,9 @@
 	  <!-- payment form, required info and must accpet terms and conditions, 1 radio button allowed -->
  <div class="payment">
         <form>
-			<label for="Purchase">Payment Information</label> <br>
-            <label for="name">Full name: </label> <br>
-            <input type="text" id="Purchase" name="Purchase" required size="20" placeholder="Enter full name..."><br>
+			<u>Payment Information </u> <br>
+            <label for="Fname">Full name: </label> <br>
+            <input type="text" id="Fname" name="Fname" required size="20" placeholder="Enter full name..."><br>
 			
             <label for="CardInfo"> Card Number:</label><br>
             <input type="text" id="CardInfo" name="CardInfo" placeholder="Card Info..." required ><br>
@@ -61,16 +61,18 @@
             <input type="text" id="ZipCode" name="ZipCode" placeholder="Zip Code..." required><br>
 			
             <input required type="checkbox" id="agreement" name="agreement" value="agreement">
-            <label for="agreement"><h4>I have read the terms and conditions and understand that I am responsible for 
-								 each purchase made.</h4></label><br>
-             <label>Find anything you're interested in? (select one)</label><br>
+            <label for="agreement"><p><span style="font-size:15px;"> I have read the terms and conditions and understand that I am responsible for 
+								 each purchase made.</span> </p> 
+			</label>
+			<br>
+            <label>Find anything you're interested in? (select one)</label><br>
             <input type="radio" id="action" name="anime" value="action">
             <label for="action"> action $10.99</label><br>
             <input type="radio" id="thriller" name="anime" value="thriller">
             <label for="thriller">thriller $12.99</label><br>
             <input type="radio" id="shonen" name="anime" value="shonen">
             <label for="shonen">shonen $8.99</label><br>
-			<input type="radio" id="Comedy" name="anime" value="comedy">
+			<input type="radio" id="comedy" name="anime" value="comedy">
             <label for="comedy"> comedy $5.99</label><br>
 								 
             <input type="submit" value="Submit">
