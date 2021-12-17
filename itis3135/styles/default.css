@@ -154,20 +154,20 @@ th {
 }
 
 .box-display {
-	padding-top: 20px;
+	padding-top: 14px;
 }
 
 input[type=text], input[type=email], input[type=tel], select {
 	width: 100%;
 	margin: 2px -13px;
-	padding: 15px 10px;
+	padding: 10px 8px;
 }
 
 input[type=submit]{
-	width: 100%;
+	width: 80%;
 	background-color: dimgray;
 	color: #cfd6ea;
 	border: none;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 6px;
 }
