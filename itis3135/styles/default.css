@@ -140,7 +140,7 @@ th {
 	font-weight: 600;
 	font-size: 110%;
 	padding: 12px;
-	border-radius: 10px;
+	border-radius: 7px;
 	display: block;
 	text-align: center;
 	margin-bottom: 20px;
@@ -167,20 +167,4 @@ input[type=submit]{
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
-}
-
-button {
-	border: none;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 5px;
-}
-
-button:focus {
-	background-color: #fed766;
-}
-
-.button-row {
-	margin-top: 20px;
-	position: relative;
 }
