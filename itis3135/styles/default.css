@@ -95,11 +95,6 @@ th, td
 	background-color: blue;
 }
 
-.right
-{
-	text-align: right;
-}
-
 tbody tr:nth-child(odd) td
 {
 	background-color: royalblue;
@@ -142,8 +137,8 @@ th {
 	padding: 12px;
 	display: block;
 	text-align: center;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -151,6 +146,8 @@ th {
 	border-radius: 4px;
 	border-width: medium;
 	border-color: #8080ff;
+	height: auto;
+	width: auto;
 }
 
 .box-display {
